@@ -9,4 +9,5 @@ def index():
                        'email': 'alice@outlook.com'})
 
 
-app.run()
+if __name__ == '__main__':
+    app.run(debug=True)
